@@ -25,15 +25,18 @@ public class Program3 {
 		
 		//2
 		int[] array2 = {2,5,1,3,4,9,7,8,10,6};
-		int pair = 0;
-		int odd = 0;
+		int pair[] = new int[5];
+		int odd[] = new int[5];
 		int sum = 0;
+		
 		
 		for(int i = 0; i < array2.length; i++) {
 			sum += array2[i];
 		}
+
+		
 		sum = sum / 10;
-		System.out.println("A média é: "+sum);
+		System.out.println("\nA média é: "+sum);
 		
 		
 		
